@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  color: #eee;
+}
+body {
+  background-color: #222;
+  font-size: 24px;
+}
+section {
+  background-color: #333;
+  width: 75%;
+  padding: 150px 0;
+  margin: auto;
+}
+section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > div p {
+  margin-top: -24px;
+}
+form > div:not(:last-child) {
+  line-height: 4rem;
+}
+h1 {
+  color: hotpink;
+  font-size: 36px;
+}
+input, textarea {
+  background-color: #444;
+  padding: 12px;
+  border-radius: 8px;
+}
+textarea {
+  width: 100%;
+  margin-top: 16px;
+}
+::placeholder {
+  color: #eee;
+  font-size: 16px;
+}
+input[type=submit] {
+  background-color: hotpink;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 12px 36px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  section {
+    width: 85%;
+    padding: 40px 10px;
+  }
+  input:not([type=submit]) {
+    width: 100%;
+  }
+}
