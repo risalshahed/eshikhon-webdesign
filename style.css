@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+
+}
+header > div {
+  width: 100%;
+}
+header > div:first-child {
+  text-align: center;
+  line-height: 1px;
+  align-self: center;
+  padding-right: 2rem;
+}
+header h6 {
+  color: #555;
+}
+#news {
+  color: #fff;
+  letter-spacing: 5px;
+}
+#news h3 {
+  background-color: #000;
+  padding: 1rem 2rem 1rem;
+}
+/* Common styles for heading tags */
+h2,h3,h4,h6 {
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h6 {
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+/* Top Section */
+.top-section {
+  padding: 0 0 20rem;
+}
+.top-div {
+  background-image: url("images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 75vh;
+  position: relative;
+}
+.top-div > h4 {
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  cursor: pointer;
+}
+#collection {
+  text-align: center;
+}
+/* Grid Section */
+.grid-section {
+  padding: 5rem 0;
+  background-color: #7a7a7a20;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+.grid-section > div {
+  text-align: center;
+  line-height: 0;
+  box-shadow: 8px 8px 18px #ccc;
+}
+.grid-section > div:nth-child(1), .grid-section > div:nth-child(2), .grid-section > div:nth-child(3) {
+  margin-top: -20rem;
+}
+/* Dark Section */
+.dark-section {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+.dark-section > div {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.dark-section h2,h6 {
+  line-height: 0;
+}
+.dark-section h6 {
+  color: #bbb;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+/* Footer */
+footer h3 {
+  text-align: center;
+}
+footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+  letter-spacing: 2rem;
+}
